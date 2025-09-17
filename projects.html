@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Kaizia Johnson's Resume</title>
+    <link rel="stylesheet" href="proj.css" type="text/css">
+</head>
+<body>
+<div id = "page-wrapper">
+    <header>
+        <h1>Kaizia Johnson</h1>
+        <p> Computer Science Projects</p>
+    </header>
+    <div id = "container">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../edu/edu.html">Education</a></li>
+                <li><a href="../exp/exp.html">Experience</a></li>
+                <li><a href="../skills/skills.html">Skills</a></li>
+<!--                <li><a href="../research/research.html">Research</a></li>-->
+                <li><a href="../projects/projects.html">Projects</a></li>
+                <li><a href="../ref/ref.html">References</a></li>
+            </ul>
+        </nav>
+        <main>
+            <p id = title> Projects</p>
+            <br>
+            <a id = projtitle href = "https://github.com/MuhammadHunainKhurram/dill"> <b>Dill</b> </a>
+            <p> I created this project a long with my teammates at the HackMIT hackathon. It is a simple web app that takes a pdf of information and parses it into a JSON file. Once the file is parsed, it is turned into a presentation through the use of the Google Slides API. </p>
+
+            <br>
+            <a id = projtitle href = "https://github.com/Sachin04t/Meat-the-Economy"> <b>Meat-The-Economy</b> </a>
+            <p> This was a final project for BU's Data Science Tools Class. The Meatmerizor is a model that can predict the economic state of a country based on previous data of the country’s meat consumption and economic data.
+                More specifically, the Meatmerizor takes in a country’s meat consumption per capita along with GDP per capita PPP for a given year in order to predict future trends.  </p>
+
+            <br>
+            <div class="calculator">
+                <h1 id = calc >Calculator</h1>
+                <label for="one"> Give me a number: </label><input id="one"/>
+                <br>
+                <label for="two"> Give me a number: </label><input id="two"/>
+                <div class="calculator-button">
+                    <button onClick="doAdd()">Add</button>
+                    <button onClick="doSubtract()">Subtract</button>
+                    <button onClick="doMultiply()">Multiply</button>
+                    <button onClick="doDivide()">Divide</button>
+                    <button onClick="doClear()">Clear</button>
+                    <button onClick="doPower()">Power</button>
+                </div>
+                <br>
+                <h2 id="output">Output</h2>
+            </div>
+
+
+        </main>
+    </div>
+    <footer>
+        <p> All rights reserved by Kaizia Johnson <a href=" "> Credits</a>&#169;</p>
+    </footer>
+</div>
+<script src="../index.js"></script>
+</body>
+</html>
